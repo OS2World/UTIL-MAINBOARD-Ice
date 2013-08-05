@@ -1,0 +1,45 @@
+---- original documentation ... ------------------------------------------------
+
+Disabling and Enabling the 80486 Internal Cache
+
+These programs allow you to turn the 80486's internal cache on and off.  Usually
+your cache should be left enabled, but some software may not work with caching
+enabled.  In particular, Sierra and Dynamix games will not work correctly with
+the CMS Sound Blaster if caching is enabled.  Also, you can disable the cache
+to slow down programs that run too fast on a 486.  Origin's Wing Commander is
+a good candidate for this, especially if you have a fast video board.  I
+disable the cache for both reasons with Dynamix's Stellar7.
+
+My 486 runs about as fast as a 386 when I disable the internal cache.  If I
+disable the external cache as well (Do this in your BIOS setup), my 486 runs
+about as fast as a 286.
+
+================================================================================
+
+Usage:
+
+icd - disables the internal cache
+ice - enables the internal cache
+
+Just type icd or ice at the dos prompt.
+
+Warning:  If you do not have an 80486, I don't know what will happen if you run
+        these, but it probably won't be good.
+
+================================================================================
+
+These programs are freeware, distribute as you like.
+Send any comments to me (Michael Spertus - 70313,2520)
+
+---- end original documentation ... --------------------------------------------
+
+changes: by Veit Kannegieser; 2003.08.13:
+  trap handling, build as com file
+
+changes: by Veit Kannegieser; 2004.02.10:
+  added OS/2 part using SDDHELP.SYS
+
+ICE/ICD are dual mode programs. DOS part runs in plain DOS.
+OS/2 part must be run in an OS/2 session; it requires
+'DEVICE=E:\OS2\SDDHELP.SYS /Q' active in config.sys, for
+example by Scitech SNAP display driver installtion.

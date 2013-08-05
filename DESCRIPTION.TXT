@@ -1,0 +1,7 @@
+AUTOR.TXT wher to contact the author
+CACHE.DOC documentation for icd/ice.com
+ICD.EXE disables the internal cache
+ICE.EXE enables the internal cache
+MD5_SUM.ASC PGP signed MD5 checksums
+PROGRAMM.DEU german list of my other programs
+PROGRAMM.ENG english list of my other programs
